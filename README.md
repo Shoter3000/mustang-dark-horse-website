@@ -16,4 +16,4 @@ Shoter3000
 
 ## License
 
-MIT License
+MIT License and tamplate by [HtmlCodex](https://htmlcodex.com/)
