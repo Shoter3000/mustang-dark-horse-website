@@ -18,8 +18,8 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0);
-    color: rgb(119, 119, 119);
+    color: rgb(167, 167, 167);
+    background-color: rgba(255, 255, 255, 0);
     border: none;
     cursor: pointer;
     padding: 10px;
@@ -35,7 +35,7 @@
   }
   
   .slideshow button:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+    color: #0143bd;
   }
   
   /* SVG Section */
@@ -66,4 +66,6 @@
     font-size: 1.2rem;
     font-weight: bold;
     margin-top: 10px;
+    color: #0143bd;
   }
+
