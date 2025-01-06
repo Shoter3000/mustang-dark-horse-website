@@ -7715,6 +7715,10 @@ textarea.form-control-lg {
     word-break: break-word !important
 }
 
+.h6color{
+    color: #0B2154 !important    
+}
+
 .text-primary {
     color: #0142bd !important
 }
