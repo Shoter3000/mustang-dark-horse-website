@@ -391,3 +391,21 @@
     padding-right: 0;
     border-right: none;
 }
+
+.canmustang {
+    font-family: 'Corbel';
+    letter-spacing: 6px;
+    font-size: 12px;
+    color: #0B2154;
+    margin-left: 14px;
+}
+
+.d-flex.bg-light.py-5 {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.d-flex.bg-light.py-5:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    background-color: #f8f9fa !important;
+}
