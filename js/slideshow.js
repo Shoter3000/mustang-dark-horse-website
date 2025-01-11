@@ -50,13 +50,39 @@ function updateSvgColor(color) {
   }
 }
 
+// Update font color dynamically
+function updateFontColor(color) {
+  const fontElement = document.getElementById("FontColor");
+  if (fontElement) {
+    fontElement.style.color = color;
+  }
+}
+
+// SVG color update
+function updateSvgColor(color) {
+  const svgElement = document.querySelector("#colorSvgContainer svg");
+  const selectedColor = color || document.getElementById("colorPicker").value;
+  if (svgElement) {
+    svgElement.querySelectorAll("path").forEach(path => path.setAttribute("fill", selectedColor));
+  }
+
+  if (!color) {
+    document.getElementById("colorName").textContent = "Custom Color";
+  }
+  
+  // Update font color based on the new SVG color
+  updateFontColor(selectedColor);
+}
+
 // Load SVG dynamically
 function loadSvg() {
   fetch("img/FordMustang.svg")
     .then(response => response.text())
     .then(svgContent => {
       document.getElementById("colorSvgContainer").innerHTML = svgContent;
-      updateSvgColor("rgb(2, 48, 90)");
+      const defaultColor = "rgb(2, 48, 90)";
+      updateSvgColor(defaultColor);
+      updateFontColor(defaultColor);
     })
     .catch(error => console.error("Error loading SVG:", error));
 }
