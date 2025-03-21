@@ -11,8 +11,8 @@ This project showcases a Ford Mustang configurator, allowing users to visualize 
 
 
 ## Developers
-
-Shoter3000
+Nejc Vidmar<br>
+_This project was created as part of a school assignment._
 
 ## License
 
