@@ -1,6 +1,7 @@
 # Mustang Dark Horse
 
-This project showcases a Ford Mustang configurator, allowing users to visualize the car in different colors and explore corresponding color palettes.  It features an interactive slideshow of Mustang images and dynamically updates the color of an SVG graphic of the car to match the selected image.
+This project showcases a Ford Mustang configurator, allowing users to visualize the car in different colors and explore corresponding color palettes.  It features an interactive slideshow of Mustang images and dynamically updates the color of an SVG graphic of the car to match the selected image.<br>
+The project task was to create any webpage in which a specific logo is implemented as SVG, Bézier curve, and PNG.
 
 ## Features
 
